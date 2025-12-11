@@ -1,6 +1,17 @@
-# TaskScore
-Die Web app "TaskScore" soll dem Anwender grundsätzlich die Möglichkeit bieten, seine To-Do's priorisiert anzuordnen und zu planen. Ein limitiertes Punktesystem, verteilt auf die unterschiedlichen Aufgaben zeigt  den Zeit/Arbeitsaufwand. Eine graphische Darstellung zeigt den Fortschritt pro To-Do um seine Ressourcen zu verteile   
-Die gezielten Nutzer sind Menschen des alltäglichen Lebens, welche den Wunsch haben, ihr Zeitmanagement zu optimieren. 
+Der  Task Planner ist eine  Webanwendung mit der Nutzer
+ihre Aufgaben für die kommende Woche planen können. Statt eine klassische
+To-do-Liste zu verwenden, wird ein Punktesystem eingesetzt:
+Pro Woche steht ein begrenztes Punktekonto zur Verfügung, bisher 100 Punkte.
+Jede Aufgabe bekommt eine bestimmte Anzahl an Punkten, abhängig von
+Wichtigkeit und erwartetem Zeitaufwand. Durch den Vergleich von vergebenen vs. erledigten Punkten soll der eigene Fortschritt sichtbar werden.
+Ziel ist es, Prioritäten bewusster zu setzen und eine realistische Wochenplanung
+zu unterstützen.
 
-Ziele als Gruppe sind das gemeinsame, konstruktive Erstellen einer funktionierenden, interessanten Anwendung, die die oben genannten Erwartungen erfüllt. 
+Aktueller Stand der Implementierung
+
+Momentan besteht eine grundlegenden Struktur:
+Wir haben eine Flask-App mit definierten URL-Routen, ein Basis-Templates für die wichtigsten Screens
+
+Was noch geplant ist, sind das Speichern von Aufgaben, Verteilung der Punkte über mehrere Tage und die Fortschrittsberechnung auf Basis echter Daten
+
 
